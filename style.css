@@ -1,0 +1,159 @@
+
+body {
+font-family: "Georgia", Times, serif;
+color: #777;
+background-image: url("photos/backgroundImage.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+font-family: 'Cardo', serif;
+
+}
+  
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+
+#navbar a {
+  float: right;
+  display: block;
+  color: #777777;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  width: 10%;
+  margin-right: 15px;
+  font-size: 22px;
+}
+
+
+.content {
+  padding: 16px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+
+
+#main{
+  
+  padding-top: 40px;
+  padding:120px;
+  border: 2px;
+  border-color:black;
+  align-content: center;  
+}
+
+
+
+
+#name{
+  float:left;
+  color:#777777;
+  margin-left: 50px;
+  margin-top:10px;
+  font-family: 'Arapey', serif;
+  font-size: 30px;
+
+}
+
+
+
+p{
+  padding:20px;
+}
+
+  
+.aboutMe{
+  
+  color:white;
+  background-color: gray;
+  font-size: 22px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  float:right;
+  width:65%;
+  border-radius: 25px;
+  margin: 0 auto;
+  
+  
+
+}
+
+
+
+
+  
+.myPhoto {
+  float: left;
+  width:28%;
+  border-radius: 25px ;
+  float: left;
+}
+
+
+
+
+.p-image{
+  width:30%;
+  height:30%;
+  padding:15px;
+  align-content: left;
+  border-radius: 25px ;
+}
+
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+  overflow: auto;
+}
+
+
+#portfolio{
+  color:white;
+  background-color: gray;
+  font-size: 20px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  width:80%;
+  border-radius: 25px;
+  padding: 20px;
+ margin: 120px;
+  
+}
+
+h2{
+  text-align: center;
+  color: white;
+}
+
+#contact{
+  color:white;
+  background-color: gray;
+  font-size: 20px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  width:80%;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 120px;
+  
+
+
+};
