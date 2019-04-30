@@ -3,9 +3,10 @@ body {
 font-family: "Georgia", Times, serif;
 color: #777;
 background-image: url("photos/backgroundImage.jpg");
-background-repeat: no-repeat;
+background-repeat: repeat;
 background-attachment: fixed;
 font-family: 'Cardo', serif;
+background-size: auto;
 
 }
   
@@ -47,7 +48,15 @@ font-family: 'Cardo', serif;
 }
 
 
-
+.tag{
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  
+  
+}
 
 #main{
   
@@ -63,8 +72,8 @@ font-family: 'Cardo', serif;
 
 #name{
   float:left;
-  color:#777777;
-  margin-left: 50px;
+  columns: #8f8888;
+  margin-left: 40px;
   margin-top:10px;
   font-family: 'Arapey', serif;
   font-size: 30px;
@@ -81,10 +90,10 @@ p{
 .aboutMe{
   
   color:white;
-  background-color: gray;
+  background-color:gray;
   font-size: 22px;
-  opacity: 0.8;
-  filter: alpha(opacity=80);
+  opacity: 0.6  ;
+  filter: alpha(opacity=70);
   float:right;
   width:65%;
   border-radius: 25px;
@@ -138,10 +147,12 @@ p{
   
 }
 
-h2{
+h1, h2{
   text-align: center;
   color: white;
 }
+
+
 
 #contact{
   color:white;
@@ -153,7 +164,9 @@ h2{
   border-radius: 25px;
   padding: 20px;
   margin: 120px;
+  overflow: hidden;
   
 
 
 };
+
