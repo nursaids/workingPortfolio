@@ -3,7 +3,7 @@ body {
   font-family: "Georgia", Times, serif;
   color: #777;
   background-image: url("photos/backgroundImage.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: fixed;
   font-family: 'Cardo', serif;
   background-size: 100%;
@@ -63,14 +63,8 @@ hr {
 
 
 .tag{
-  
   display: inline-block;
-  
-  width: 35%;
-  margin-left: 65px;
-  margin-right: 50px;
-  
-  
+  width: 40%;
 }
 
 #main{
@@ -89,7 +83,7 @@ hr {
 #name{
   float:left;
   color: #deeaee;
-  margin-left: 70px;
+  margin-left: 50px;
   margin-top:15px;
   font-family: 'Arapey', serif;
   font-size: 30px;
@@ -99,7 +93,9 @@ hr {
 
 
 p{
-  padding:30px;
+  padding-left:30px;
+  padding-right:30px;
+  
 }
 
   
@@ -110,9 +106,8 @@ p{
   font-size: 25px;
   float:right;
   width:65%;
-  
   margin-top: 65px;
-  opacity: 0.70;  
+  opacity: 0.65;  
   
   
   
@@ -120,9 +115,6 @@ p{
 }
 
 
-
-
-  
 .myPhoto {
   float: left;
   width:29%;
@@ -151,7 +143,7 @@ p{
   color:black;
   background-color:#deeaee;
   font-size: 20px;
-  opacity: 0.88;
+  opacity: 0.77;
   width:80%;
   
   padding:5px;
@@ -172,9 +164,9 @@ h1, h2{
   color:black;
   background-color: #deeaee;;
   font-size: 20px;
-  opacity: 0.88;
+  opacity: 0.77;
   width:80%;
-  
+  align-content: center;
   padding: 20px;
   margin: 120px;
   overflow: hidden;
