@@ -1,8 +1,8 @@
 
 body {
   font-family: "Georgia", Times, serif;
-  color: #777;
-  background-image: url("photos/backgroundImage.png");
+  color: black;
+  
   background-repeat: repeat;
   background-attachment: fixed;
   font-family: 'Cardo', serif;
@@ -23,12 +23,13 @@ hr {
 
 #navbar {
   
-  background-color: #333;
+  background-image: url("photos/backgroundImage.png");
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 10;
+  
   
  
   
@@ -38,7 +39,7 @@ hr {
 #navbar a {
   float: right;
   display: block;
-  color: #deeaee;
+  color: black;
   text-align: center;
   padding: 20px;
   text-decoration: none;
@@ -82,7 +83,7 @@ hr {
 
 #name{
   float:left;
-  color: #deeaee;
+  color: black;
   margin-left: 50px;
   margin-top:15px;
   font-family: 'Arapey', serif;
@@ -103,7 +104,7 @@ p{
   
   color:black;
   background-color:#deeaee;
-  font-size: 25px;
+  font-size: 22px;
   float:right;
   width:65%;
   margin-top: 65px;
@@ -167,7 +168,7 @@ h1, h2{
   opacity: 0.77;
   width:80%;
   align-content: center;
-  padding: 20px;
+  padding: 40px;
   margin: 120px;
   overflow: hidden;
   
