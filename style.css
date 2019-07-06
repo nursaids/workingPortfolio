@@ -2,7 +2,7 @@
 body {
   font-family: "Georgia", Times, serif;
   color: black;
-  
+  background-image: url("photos/backgroundImage.png");
   background-repeat: repeat;
   background-attachment: fixed;
   font-family: 'Cardo', serif;
@@ -22,7 +22,7 @@ hr {
 
 
 #navbar {
-  
+  background-attachment: fixed;
   background-image: url("photos/backgroundImage.png");
   position: fixed;
   top: 0;
@@ -59,8 +59,6 @@ hr {
   top: 0;
   width: 100%;
 }
-
-
 
 
 .tag{
@@ -104,11 +102,11 @@ p{
   
   color:black;
   background-color:#deeaee;
-  font-size: 22px;
+  font-size: 21px;
   float:right;
   width:65%;
   margin-top: 65px;
-  opacity: 0.65;  
+  opacity: 0.50;  
   
   
   
@@ -144,7 +142,7 @@ p{
   color:black;
   background-color:#deeaee;
   font-size: 20px;
-  opacity: 0.77;
+  opacity: 0.65;
   width:80%;
   
   padding:5px;
